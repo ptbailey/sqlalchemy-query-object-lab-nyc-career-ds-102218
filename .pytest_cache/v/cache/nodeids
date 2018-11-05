@@ -1,4 +1,8 @@
 [
+<<<<<<< HEAD
+=======
+  "test/index_test.py::TestQueries::test_count_number_of_tech_companies",
+>>>>>>> e2cff0d0b36bc728ad23978906153e96e1e8de1f
   "test/index_test.py::TestQueries::test_return_apple",
   "test/index_test.py::TestQueries::test_return_conglomerates_and_pharmaceutical_companies",
   "test/index_test.py::TestQueries::test_return_disneys_industry",
