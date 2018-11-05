@@ -41,10 +41,10 @@ class TestQueries(unittest.TestCase):
         result = ['3M', 'General Electric', 'Johnson & Johnson', 'Merck', 'Pfizer', 'United Technologies']
         self.assertEqual(conglomerceuticals, result)
 
-    def test_count_number_of_tech_companies(self):
-        avg = avg_EV_of_dow_companies()
-        result = (221.90999999999997,)
-        self.assertEqual(avg, result)
+    # def test_count_number_of_tech_companies(self):
+    #     avg = avg_EV_of_dow_companies()
+    #     result = (221.90999999999997,)
+    #     self.assertEqual(avg, result)
 
     def test_return_industry_and_its_total_EV(self):
         industry_ev = return_industry_and_its_total_EV()
