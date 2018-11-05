@@ -15,7 +15,7 @@ class Company(Base):
     enterprise_value = Column(Float)
 
 engine = create_engine('sqlite:///dow_jones.db')
-Base.metadata.create_all(engine)
+Base.metadata.create_all(engine) #this is creating your table. metadata object collects newly defined Table objects
 
 Session = sessionmaker(bind=engine)
 session = Session()
